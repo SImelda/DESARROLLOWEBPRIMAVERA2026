@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="ocultarImagen()">Ocultar Imagen </button>
+    <button onclick="mostrarImagen()">Mostrar Imagen </button>
+
+    <img id="imagen" src="imagen.jpg.jpg">
+   
+    <script>
+    function ocultarImagen(){
+        const mensajeElemento=document.getElementById("imagen")
+        mensajeElemento.style.display="none";
+
+
+    }
+    function mostrarImagen(){
+        const mensajeElemento=document.getElementById("imagen")
+        mensajeElemento.style.display="block";
+
+
+    }
+
+    </script>
+     
+</body>
+</html>

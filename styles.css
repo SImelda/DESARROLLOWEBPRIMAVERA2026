@@ -1,0 +1,159 @@
+/* Selectores de etiqueta permitidos */
+
+body {
+    margin: 0;
+    background-color: #f2f2f2;
+    font-family: Verdana, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    color: #003366;
+    text-decoration: underline;
+}
+
+h3 {
+    color: darkred;
+}
+
+p {
+    color: #222;
+}
+
+/* CLASES */
+
+.banner {
+    background-color: #003366;
+    padding: 25px;
+    text-align: center;
+}
+
+.subtitle {
+    color: white;
+}
+
+.menu {
+    background-color: darkred;
+    padding: 10px;
+}
+
+.menu-list {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+.menu-list li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.menu-list a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu-list a:hover {
+    color: yellow;
+}
+
+.contenedor {
+    padding: 30px;
+}
+
+.bloque {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 25px;
+    border: 3px solid #003366;
+    box-shadow: 4px 4px 8px gray;
+}
+
+.bloque-vertical {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 25px;
+    border: 3px dotted darkred;
+    text-align: center;
+}
+
+.columna {
+    width: 45%;
+}
+
+.evento {
+    margin: 20px 0;
+}
+
+.lista {
+    border: 2px solid darkred;
+    padding: 15px;
+}
+
+.foto {
+    width: 250px;
+    border: 4px solid #003366;
+}
+
+.resaltado {
+    color: darkred;
+    font-weight: bold;
+}
+
+.pie {
+    background-color: #003366;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.contacto {
+    margin-bottom: 15px;
+}
+
+.grupo {
+    margin-bottom: 10px;
+}
+
+.campo {
+    padding: 5px;
+    border: 2px solid #003366;
+}
+
+/* ÚNICO ID permitido */
+#botonUnico {
+    background-color: darkred;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 700px) {
+    .bloque {
+        flex-direction: column;
+        background-color: #d9ecff;
+    }
+}
+
+@media (max-width: 300px) {
+    .bloque {
+        background-color: #ffdddd;
+    }
+}
+
+@media (max-width: 400px) {
+    .ocultar {
+        display: none;
+    }
+}
